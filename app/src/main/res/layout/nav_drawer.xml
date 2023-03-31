@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/border"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="206sp"
+        android:layout_marginTop="25sp"
+        android:orientation="vertical"
+        android:gravity="bottom"
+        android:padding="16sp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+        <ImageView
+            android:layout_width="167dp"
+            android:layout_height="150sp"
+            android:src="@drawable/logo"/>
+
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/home"
+        android:layout_marginStart="12sp"
+        android:layout_marginTop="12sp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/lavender"
+            android:text="Home"
+            android:textSize="20sp"
+            android:drawableLeft="@drawable/ic_baseline_home_24"
+            android:drawablePadding="10sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/settings"
+        android:layout_marginStart="12sp"
+        android:layout_marginTop="12sp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/lavender"
+            android:text="Settings"
+            android:textSize="20sp"
+            android:drawableLeft="@drawable/ic_baseline_settings_24"
+            android:drawablePadding="10sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/share"
+        android:layout_marginStart="12sp"
+        android:layout_marginTop="12sp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/lavender"
+            android:text="Share"
+            android:textSize="20sp"
+            android:drawableLeft="@drawable/ic_baseline_share_24"
+            android:drawablePadding="10sp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/about"
+        android:layout_marginStart="12sp"
+        android:layout_marginTop="12sp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/lavender"
+            android:text="About"
+            android:textSize="20sp"
+            android:drawableLeft="@drawable/ic_baseline_info_24"
+            android:drawablePadding="10sp"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1sp"
+        android:layout_marginTop="12sp"
+        android:background="@color/lavender"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/logout"
+        android:layout_marginStart="12sp"
+        android:layout_marginTop="12sp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/lavender"
+            android:text="Logout"
+            android:textSize="20sp"
+            android:drawableLeft="@drawable/ic_baseline_logout_24"
+            android:drawablePadding="10sp"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
